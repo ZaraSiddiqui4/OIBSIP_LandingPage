@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand img {
+    border-radius: 30px;
+}
+
+.navbar {
+    background-color: lightcoral;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-brand span {
+    color: white;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url('Home.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: black;
+}
+
+.hero-section .display-3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: lightcoral;
+}
+
+.about {
+    margin-top: -30px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about-img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.about-text {
+    flex: 2;
+    text-align: left;
+}
+
+.about-text h2 {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+#services {
+    margin-top: -20px;
+}
+
+#services h2 {
+    margin-bottom: 2rem;
+    color: lightcoral;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+    color: rgb(236, 103, 103);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contact-section p {
+    margin-bottom: 2rem;
+    color: rgb(236, 103, 103);
+    font-size: 1.5rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-label {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form .btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: rgb(236, 103, 103);
+}
+
+.footer {
+    background-color: lightcoral !important;
+    color: #ffffff;
+    padding: 5px 0px;
+    margin: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
